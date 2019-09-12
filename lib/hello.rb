@@ -10,3 +10,5 @@ def hello_t(array)
     puts "Hey! No block was given!"
   end
 end
+
+#name => index number in array and helps me remember what the index numer points to.
