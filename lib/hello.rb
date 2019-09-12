@@ -3,7 +3,7 @@ def hello_t(array)
     index = 0
       while index < array.length
         yield(array[index])
-        index = index + 1
+        index = index.next
       end
     array
   else
