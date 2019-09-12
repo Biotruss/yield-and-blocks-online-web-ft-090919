@@ -1,6 +1,6 @@
 require "spec_helper"
 
-escribe "#hello_t" do
+describe "#hello_t" do
   let (:names) { ["Tim", "Tom", "Jim"] }
 
   it "calls the block once for each element in the passed-in array" do
