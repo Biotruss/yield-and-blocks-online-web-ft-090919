@@ -1,9 +1,9 @@
 def hello_t(array)
   if block_given?
-    index = 0
-      while index < array.length
-        yield array[index]
-        index = index.next
+    name = 0
+      while name < array.length
+        yield array[name]
+        name = name.next
       end
     array
   else
